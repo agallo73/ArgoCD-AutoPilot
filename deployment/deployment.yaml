@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: zurich-weather-app
+  name: ermes-app
   labels:
-    app: zurich-weather-app
+    app: ermes-app
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: zurich-weather-app
+      app: ermes-app
   template:
     metadata:
       labels:
-        app: zurich-weather-app
+        app: ermes-app
     spec:
       containers:
-      - name: zurich-weather-app
+      - name: ermes-app
         image: antkr73/gitlab-actions:1.0
         ports:
         - containerPort: 8080
