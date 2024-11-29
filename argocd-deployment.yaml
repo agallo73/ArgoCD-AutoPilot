@@ -9,6 +9,6 @@ spec:
     server: https://kubernetes.default.svc 
   project: default 
   source:
-    repoURL: https://github.com/pietrolibro/gitops-k8s-deployments-book-weather-app.git
+    repoURL: https://github.com/agallo73/ArgoCD-AutoPilot.git
     path: deployment
     targetRevision: main
