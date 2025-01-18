@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ermes-app
 spec:
-  replicas: 5
+  replicas: 6
   selector:
     matchLabels:
       app: ermes-app
